@@ -12,8 +12,9 @@ for x in list:
     i+=1
 
 for x in range(i+1):
-    print('-'*(i-x),end='')
+    print(' '*(i-x),end='')
     y=x
+    
     for m in range(x+1):
         print("%c"%(m+65),end='')
     
@@ -21,4 +22,4 @@ for x in range(i+1):
         print("%c"%(y+64),end='')
         y-=1
 
-    print('-'*(i-x))
+    print(' '*(i-x))
